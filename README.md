@@ -23,29 +23,29 @@ cd webcrawler
 
 **3. Run Docker deamon on your local machine**
 
-**4. Build images from docker-compose file **
+**4. Build images from docker-compose file**
 
 ```
 docker-compose build
 ```
 
-**5. Create development and test database **
+**5. Create development and test database**
 
 ```
 docker-compose run web rails db:create
 ```
 
-**6. Run web application, postgres and redis server **
+**6. Run web application, postgres and redis server**
 
 ```
 docker-compose up
 ```
 
-** To run rspec (tests): **
+**To run rspec (tests):**
 
 ### Running the tests
 
-**1. Run all tests using this command **
+**1. Run all tests using this command**
 
 ```
 docker-compose run web bundle exec rspec spec
