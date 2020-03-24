@@ -14,6 +14,8 @@ class WebsiteScanner
                            nil
                          rescue TypeError => e
                            nil
+                         rescue Errno::ECONNREFUSED => e
+                           nil
                          end
   end
 
