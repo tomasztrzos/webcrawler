@@ -41,8 +41,6 @@ docker-compose run web rails db:create
 docker-compose up
 ```
 
-**To run rspec (tests):**
-
 ### Running the tests
 
 **1. Run all tests using this command**
