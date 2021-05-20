@@ -11,7 +11,7 @@ gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
 
 gem 'bootsnap', '>= 1.4.2', require: false
 
-gem 'nokogiri', '~> 1.10', '>= 1.10.9'
+gem 'nokogiri', '~> 1.11'
 gem 'pry', '~> 0.12.2'
 gem 'redis', '~> 4.1', '>= 4.1.3'
 gem 'redis-rails', '~> 5.0', '>= 5.0.2'
